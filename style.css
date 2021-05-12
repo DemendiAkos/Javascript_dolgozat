@@ -1,0 +1,128 @@
+body {
+    background-image: url(img/hatter.png);
+    background-size: 15%;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    background-color: pink;
+    border: 2px black dotted;
+    padding-bottom: 0.5%;
+    margin-bottom: 1%;
+}
+
+hr {
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid red;
+}
+
+.intro {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.list {
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container {
+   display: flex;
+}
+
+.boi {
+    background-color: #A4A19C;
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.img {
+    width: 25%;
+    float: left;
+    border: 3px outset #B2B2B2;
+    margin-right: 1%;
+    margin-left: 3%;
+}
+
+.info {
+    margin-left: 3%; 
+}
+
+.name {
+    margin-left: 3%;
+    background-color: pink;
+    margin-right: 30%;
+    font-style: italic;
+    border: outset 5px #B2B2B2;
+}
+
+.bottom {
+    margin: auto;
+    width: 50%;
+
+    background-color: pink;
+    border: 2px black dotted;
+    padding-bottom: 0.5%;
+}
+
+.bs {
+    margin-left: 1%;
+}
+
+.gallery {
+    width: 20%;
+}
+
+.box {
+    padding-left: 15%;
+}
+
+.column {
+    display: inline;
+    padding-left: 3.5%;
+}
+
+.column .gallery {
+    opacity: 1;
+    cursor: pointer;
+}   
+
+.gallery:hover {
+    opacity: 0.8;
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#expandedImg {
+    width: 98%;
+    padding: 1%; 
+}
+
